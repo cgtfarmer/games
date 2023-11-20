@@ -11,7 +11,7 @@ const insertCard = (game) => {
   const title = createTitle(game);
 
   container.insertAdjacentHTML('beforeend', `
-    <a href="${baseUrl + game}" class="text-decoration-none">
+    <a href="${baseUrl}/${game}" class="text-decoration-none">
       <div class="card" style="width: 18rem; height: 14rem;">
         <img
           src="assets/image/${game}.png"
