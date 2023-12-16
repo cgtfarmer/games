@@ -3,5 +3,6 @@ const games = [
   "catch-the-ramen",
   "lemonade-game",
   "light-orbit-legacy",
-  "picky-uppies-unity"
+  "picky-uppies-unity",
+  "clicky-uppies-unity"
 ];
