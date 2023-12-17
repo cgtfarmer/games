@@ -11,7 +11,7 @@ const insertCard = (game) => {
   const title = createTitle(game);
 
   container.insertAdjacentHTML('beforeend', `
-    <a href="${baseUrl}/${game}" class="text-decoration-none">
+    <a href="${createGameUrl(game)}" class="text-decoration-none">
       <div class="card" style="width: 18rem; height: 14rem;">
         <img
           src="assets/image/${game}.png"
@@ -33,6 +33,10 @@ const insertCard = (game) => {
 
 //   return await response.json();
 // };
+
+const createGameUrl = (game) => {
+  return `${baseUrl}/${game}`;
+}
 
 const createTitle = (name) => {
   return toTitleCase(name.replaceAll('-', ' '))
