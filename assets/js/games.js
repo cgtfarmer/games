@@ -4,5 +4,6 @@ const games = [
   "lemonade-game",
   "light-orbit-legacy",
   "picky-uppies-unity",
-  "clicky-uppies-unity"
+  "clicky-uppies-unity",
+  "catch-the-elves-unity"
 ];
