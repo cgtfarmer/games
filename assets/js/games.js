@@ -3,7 +3,7 @@ const games = [
   "dodgeblocks-unity",
   "picky-uppies-unity",
   "catch-the-elves-unity",
-  "dino-luvies",
+  "dino-luvies-unity",
   "light-orbit-legacy",
   "catch-the-ramen"
 ];
